@@ -23,7 +23,7 @@ message = 'Olá, mundo!'
 print('Criando mensagem...')
 email_msg = MIMEMultipart()
 email_msg['From'] = user
-email_msg['To'] = '<auricelialopes@gmail.com>'
+email_msg['To'] = '<mail@mail.com>'
 email_msg['Subject'] = 'Assunto da mensagem'
 print('Adicionando texto...')
 email_msg.attach(MIMEText(message, 'plain'))
