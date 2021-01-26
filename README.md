@@ -9,7 +9,8 @@ password = '<password>'
  
 e habilite ON em https://www.google.com/settings/security/lesssecureapps permitindo o acesso a app menos seguro na sua conta google, você pode desativar isso quando terminar de enviar a mensagem.
 
-Nota: altere o email do destinatário em <email_msg['To'] = '<mail@mail.com>'>
+Nota: altere o email do destinatário em
+email_msg['To'] = '<mail@mail.com>'
 
 
 Depois de editar e confogurar execute seu arquivo .py no console.
