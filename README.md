@@ -1,4 +1,4 @@
-# python_smtp_gmail
+# Python SMTP Gmail
 Envio de email usando servidor SMTP do Gmail em Python 
 
 No código procure #Configuração
