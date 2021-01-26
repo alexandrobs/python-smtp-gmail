@@ -1,5 +1,6 @@
 # Python SMTP Gmail
 Envio de email usando servidor SMTP do Gmail em Python 
+Serve para outros clientes SMTP, basta alterar as configurações, remova a do Gmail e substitua por outro SMTP de sua preferência.
 
 No código procure #Configuração
 
