@@ -1,17 +1,12 @@
 # Python SMTP Gmail
-Envio de email usando servidor SMTP do Gmail em Python 
-Serve para outros clientes SMTP, basta alterar as configurações, remova a do Gmail e substitua por outro SMTP de sua preferência.
+Sending email using Python's SMTP server in Python It works for other SMTP clients, just change the settings, remove the one from Gmail and replace it with another SMTP of your choice.
 
-No código procure #Configuração
+In the code look for #Configuration
 
-ATENÇÃO: Altere <user> e <password> com o email e senha de uma conta gmail, ou leia isso de um arquivo ou banco de dados, protegendo suas credenciais.
-user = '<user>'
-password = '<password>'
- 
-e habilite ON em https://www.google.com/settings/security/lesssecureapps permitindo o acesso a app menos seguro na sua conta google, você pode desativar isso quando terminar de enviar a mensagem.
+ATTENTION: Change your gmail account email and password, or read it from a file or database, protecting your credentials. user = '' password = ''
 
-Nota: altere o email do destinatário em
-email_msg['To'] = '<mail@mail.com>'
+and enable ON at https://www.google.com/settings/security/lesssecureapps allowing access to less secure app in your google account, you can disable this when finished sending message.
 
+Note: Change recipient email in email_msg['To'] = 'mail@mail.com'
 
-Depois de editar e confogurar execute seu arquivo .py no console.
+After editing and configuring run your .py file in the console.
